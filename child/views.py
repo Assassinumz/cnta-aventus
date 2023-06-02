@@ -13,7 +13,10 @@ class AddChildView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, *args, **kwargs):
-        posts = Child.objects.filter(adder=request.user)
+        if request.user.type==1:
+            posts = Child.objects.filter(adder=request.user)
+        elif request.user.type==3:
+            posts = Child.objects.filter(referred_to=request.user)
         serializer = ChildSerializer(posts, many = True)
         return Response(serializer.data, status = status.HTTP_200_OK)
 
@@ -25,6 +28,7 @@ class AddChildView(APIView):
         return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 
 class ChildDetailAPIView(APIView):
+    renderer_classes = [UserRenderer]
     permission_classes = [IsAuthenticated]
 
     def get_object(self, pk):
