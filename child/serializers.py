@@ -12,7 +12,7 @@ class ChildSerializer(serializers.ModelSerializer):
         fields = '__all__'
         
     def validate(self, attrs):
-        print(os.getcwd(),'cwd')                
+             
         model = pickle.load(open('./child/model.pkl','rb'))
         adder = self.context.get('user')
         age = float(attrs.get('age'))
@@ -28,7 +28,7 @@ class ChildSerializer(serializers.ModelSerializer):
             status=2
         if(prediction[0]==0):
             prediction='Moderate Malnutrition'
-            attrs['reffered_to']=User.objects.get(type=3)
+            attrs['referred_to']=User.objects.get(type=3)
         elif(prediction[0]==1):
             prediction='Normal'
         else:
