@@ -563,24 +563,24 @@ function ChildDetails() {
                 y: bmigsd0,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD0'
+                marker: {color: 'green'},
+                name: 'Normal'
               },
               {
                 x: [...Array(61).keys()],
                 y: bmigsd1,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1'
+                marker: {color: 'yellow'},
+                name: 'Mild Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: bmigsd2,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1neg'
+                marker: {color: 'yellow'},
+                name: 'Mild Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
@@ -588,7 +588,7 @@ function ChildDetails() {
                 type: 'line',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2'
+                name: 'Moderate Obesity'
               },
               {
                 x: [...Array(61).keys()],
@@ -596,23 +596,23 @@ function ChildDetails() {
                 type: 'scatter',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2neg'
+                name: 'Moderate Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
                 y: bmigsd5,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3'
+                marker: {color: 'black'},
+                name: 'Severe Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: bmigsd6,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3neg'
+                marker: {color: 'black'},
+                name: 'Severe Undernourishment'
               },
               {
                 x: [age],
@@ -635,24 +635,24 @@ function ChildDetails() {
                 y: muac0,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD0'
+                marker: {color: 'green'},
+                name: 'Normal'
               },
               {
                 x: [...Array(61).keys()],
                 y: muac1,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1'
+                marker: {color: 'yellow'},
+                name: 'Mild Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: muac2,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1neg'
+                marker: {color: 'yellow'},
+                name: 'Mild Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
@@ -660,7 +660,7 @@ function ChildDetails() {
                 type: 'line',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2'
+                name: 'Moderate Obesity'
               },
               {
                 x: [...Array(61).keys()],
@@ -668,23 +668,23 @@ function ChildDetails() {
                 type: 'scatter',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2neg'
+                name: 'Moderate Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
                 y: muac5,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3'
+                marker: {color: 'black'},
+                name: 'Severe Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: muac6,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3neg'
+                marker: {color: 'black'},
+                name: 'Severe Undernourishment'
               },
               {
                 x: [age],
@@ -707,24 +707,24 @@ function ChildDetails() {
                 y: hcf0,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD0'
+                marker: {color: 'green'},
+                name: 'Normal'
               },
               {
                 x: [...Array(61).keys()],
                 y: hcf1,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1'
+                marker: {color: 'yellow'},
+                name: 'Mild Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: hcf2,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1neg'
+                marker: {color: 'yellow'},
+                name: 'Mild Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
@@ -732,7 +732,7 @@ function ChildDetails() {
                 type: 'line',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2'
+                name: 'Moderate Obesity'
               },
               {
                 x: [...Array(61).keys()],
@@ -740,23 +740,23 @@ function ChildDetails() {
                 type: 'scatter',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2neg'
+                name: 'Moderate Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
                 y: hcf5,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3'
+                marker: {color: 'black'},
+                name: 'Severe Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: hcf6,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3neg'
+                marker: {color: 'black'},
+                name: 'Severe Undernourishment'
               },
               {
                 x: [age],
@@ -779,24 +779,24 @@ function ChildDetails() {
                 y: hfa0,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD0'
+                marker: {color: 'green'},
+                name: 'Normal'
               },
               {
                 x: [...Array(61).keys()],
                 y: hfa1,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1'
+                marker: {color: 'yellow'},
+                name: 'Mild Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: hfa2,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1neg'
+                marker: {color: 'yellow'},
+                name: 'Mild Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
@@ -804,7 +804,7 @@ function ChildDetails() {
                 type: 'line',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2'
+                name: 'Moderate Obesity'
               },
               {
                 x: [...Array(61).keys()],
@@ -812,23 +812,23 @@ function ChildDetails() {
                 type: 'scatter',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2neg'
+                name: 'Moderate Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
                 y: hfa5,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3'
+                marker: {color: 'black'},
+                name: 'Severe Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: hfa6,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3neg'
+                marker: {color: 'black'},
+                name: 'Severe Undernourishment'
               },
               {
                 x: [age],
@@ -851,24 +851,24 @@ function ChildDetails() {
                 y: wfh0,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD0'
+                marker: {color: 'green'},
+                name: 'Normal'
               },
               {
                 x: [...Array(61).keys()],
                 y: wfh1,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1'
+                marker: {color: 'yellow'},
+                name: 'Mild Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: wfh2,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD1neg'
+                marker: {color: 'yellow'},
+                name: 'Mild Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
@@ -876,7 +876,7 @@ function ChildDetails() {
                 type: 'line',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2'
+                name: 'Moderate Obesity'
               },
               {
                 x: [...Array(61).keys()],
@@ -884,23 +884,23 @@ function ChildDetails() {
                 type: 'scatter',
                 mode: 'lines+markers',
                 marker: {color: 'red'},
-                name: 'SD2neg'
+                name: 'Moderate Undernourishment'
               },
               {
                 x: [...Array(61).keys()],
                 y: wfh5,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3'
+                marker: {color: 'black'},
+                name: 'Severe Obesity'
               },
               {
                 x: [...Array(61).keys()],
                 y: wfh6,
                 type: 'line',
                 mode: 'lines+markers',
-                marker: {color: 'red'},
-                name: 'SD3neg'
+                marker: {color: 'black'},
+                name: 'Severe Undernourishment'
               },
               {
                 x: [height],
