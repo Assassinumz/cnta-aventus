@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav className="fixed py-2 px-4 w-full z-50 top-0">
 
-      <div className="bg-zinc-900/90 text-white md:items-center rounded-xl py-3 px-2 md:px-8 flex flex-col md:flex-row justify-between items-start">
+      <div className="bg-zinc-900/70 text-white md:items-center rounded-xl py-3 px-2 md:px-8 flex flex-col md:flex-row justify-between items-start backdrop-blur-sm border border-gray-400">
         <div className="w-full flex items-center">
           <img onClick={() => {navigate('/')}} className="w-16 cursor-pointer" src={logo} />
           <h1 onClick={() => {navigate('/')}} className="text-xl cursor-pointer">CNTA</h1>

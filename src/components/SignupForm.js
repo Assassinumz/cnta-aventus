@@ -107,6 +107,33 @@ function SignupForm() {
         <input required onChange={(e) => {setCity(e.target.value)}} placeholder="City" />
         <input type="number" required onChange={(e) => {setNumber(e.target.value)}} placeholder="Phone Number" />
         <input type="password" required onChange={(e) => {setPassword(e.target.value)}} placeholder="Password" />
+
+        <FormControl>
+            <FormLabel id="demo-row-radio-buttons-group-label">
+              Type of user
+            </FormLabel>
+            <RadioGroup
+              row
+              className="justify-center"
+              aria-labelledby="demo-row-radio-buttons-group-label"
+              name="row-radio-buttons-group"
+              defaultValue={type}
+              onChange={(e) => {
+                setType(e.target.value)
+              }}
+            >
+              <FormControlLabel
+                value={1}
+                control={<Radio />}
+                label="Parent/AD"
+              />
+              <FormControlLabel 
+                value={3} 
+                control={<Radio />} 
+                label="NRC" 
+              />
+            </RadioGroup>
+          </FormControl>
         
         <button className="bg-black" type="submit">Sign Up</button>
         <button onClick={() => {
