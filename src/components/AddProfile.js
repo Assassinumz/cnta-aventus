@@ -116,7 +116,7 @@ function AddProfile() {
           />
           <p className="text-left text-xl">Age:</p>
           <input
-            placeholder="Age"
+            placeholder="Age(months)"
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
@@ -165,7 +165,7 @@ function AddProfile() {
 
           <p className="text-left text-xl">Mid-Upper Arm Circumference:</p>
           <input
-            placeholder="Mid-Upper Arm Circumference"
+            placeholder="Mid-Upper Arm Circumference(M)"
             type="number"
             value={muac}
             onChange={(e) => setMuac(e.target.value)}
@@ -173,7 +173,7 @@ function AddProfile() {
 
           <p className="text-left text-xl">Chest Circumference:</p>
           <input
-            placeholder="Chest Circumference"
+            placeholder="Chest Circumference(M)"
             type="number"
             value={cc}
             onChange={(e) => setCC(e.target.value)}
@@ -181,7 +181,7 @@ function AddProfile() {
 
           <p className="text-left text-xl">Head Circumference:</p>
           <input
-            placeholder="Head Circumference"
+            placeholder="Head Circumference(M)"
             type="number"
             value={hc}
             onChange={(e) => setHc(e.target.value)}
