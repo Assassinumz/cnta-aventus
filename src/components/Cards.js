@@ -61,7 +61,7 @@ function Card(props) {
   }, [])
 
   return (
-    <div className={`w-80 m-4 md:m-10 flex flex-col p-5 text-white rounded-xl hover:scale-125 transition bg-zinc-800 border-2 border-slate-700 shadow-2xl`}>
+    <div className={`w-80 m-4 md:m-10 flex flex-col p-5 text-white rounded-xl hover:scale-125 transition bg-zinc-800/70 backdrop-blur-sm border-2 border-zinc-900 shadow-2xl`}>
       <div className="w-11/12 flex justify-center mx-auto">
         <img src={IMG1} />
       </div>
